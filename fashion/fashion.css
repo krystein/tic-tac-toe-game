@@ -1,0 +1,331 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'open sans', sans-serif;
+    font-size: 1.rem;
+    line-height: 1.6;
+}
+.row{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.row-100{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.row-column{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.custom-font{
+    font-family: 'open sans', sans-serif;
+}
+header{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    padding: 60px;
+    background-image: url('img/banner.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-heading{
+    font-family: 'playflair display',serif;
+    font-size: 6rem;
+    font-style: italic;
+    padding: 0 2rem;
+}
+.banner-text{
+    font-size: 0.9rem;
+    font-weight: normal;
+    background-color: white;
+    padding: 30px;
+    color: black;
+}
+.annon-section{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #e9b1b3;
+    color: white;
+
+}
+.annon{
+   font-size: 1.6rem;
+   font-style: italic; 
+
+}
+.annon span{
+    font-size: 6rem;
+    line-height: 0;
+    margin-bottom: 15px;
+}
+.annon-section p{
+    font-size: 0.8rem;
+    width: 50%;
+}   
+.gallery .img-container{
+    height: 450px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gallery .gallery-image-1{
+    background-image: url(img/gallery-1.jpeg);
+}
+.gallery .gallery-image-2{
+    background-image: url(img/gallery-2.jpeg);
+}
+.gallery .gallery-image-3{
+    background-image: url(img/gallery-3.jpeg); 
+}
+.gallery .gallery-image-4{
+    background-image: url(img/gallery-4.jpeg);
+}
+.gallery .gallery-image-5{
+    background-image: url(img/gallery-5.jpeg);
+}
+.gallery .gallery-image-6{
+    background-image: url(img/gallery-6.jpeg);
+}
+.coming-soon{
+    background-color: #e9b1b3;
+    padding: 50px 0;
+    color: white;
+}
+.coming-soon .row-column-100{
+    justify-content: center;
+}
+.coming-soon .coming-soon-heading,
+.coming-soon .coming-soon-text,
+.coming-soon .coming-soon-form{
+    text-align: center;
+}
+.coming-soon .coming-soon-heading{
+    font-size: 4rem;
+    font-style: italic;
+}
+.coming-soon .coming-soon-text{
+    font-size: 1.3rem;
+}
+.coming-soon .coming-soon-form{  
+    width: 100%;
+   
+}
+.coming-soon-form .input-container{
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+}
+.coming-soon-form .row-100{
+    justify-content: center;
+}
+.input-container .text-input,
+.input-container .form-btn{
+    padding: 10px 10px;
+    border: unset;
+    border-radius: 20px;
+}
+.input-container .form-btn{
+    background-color: black;
+    color: white;
+}
+.article {
+    background-color: white;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.article-img-container,.article-text-container{
+    display: flex;
+    align-items: center;
+}
+.article-img-container{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 35%;
+
+}
+.article-img-container .article-image{
+    width: 100%;
+    height:80%;
+}
+.article-text-container{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 55%;
+    padding: 1.3rem;
+}
+.article-text-container .article-text{
+    font-size: 1.1rem;
+    font-weight: 100;
+    line-height: 2rem;
+}
+.slide{
+    padding: 3.5rem;
+    background-color: #e9b1b3;
+    color: white;
+}
+.slide .row-100{
+    justify-content: center;
+}
+.slide-heading{
+   font-size: 3.5rem;
+   font-style: italic;
+   margin-bottom: 1.3rem;
+}
+.slide-img-container{
+    flex-grow: 1;
+    height: 350px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0.5rem;
+}
+.slide-img-1{
+    background-image: url('img/slide-1.jpg');
+}
+.slide-img-2{
+    background-image: url('img/slide-2.jpg');
+}
+.slide-img-3{
+    background-image: url('img/slide-3.jpg');
+}
+.slide-img-4{
+    background-image: url('img/slide-4.jpg');
+}
+.slide-img{
+    width: 100%;
+}
+.slide-icon-container{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.slide-icon-container i{
+    font-size: 2rem;
+}
+.product{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+}
+.product-container{
+    height: 350px;
+    flex-grow: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding-right: 1%;
+}
+.product-container img{
+    width: 100%;
+    height: 100%;
+}
+.product-container .product-description{
+    width: 1rem;
+}
+.product-description{
+    height: 350px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 2%;
+    padding-top: 3%
+}
+h4{
+    text-align: left;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+.price-tag{
+    font-weight: 950;
+    font-size: xx-large;
+    padding-bottom: 2%;
+}
+p{
+    font-size: large;
+    padding-bottom: 4%;
+}
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 3rem;
+    line-height: 2.5;
+    width: 60%;
+}
+.subscribe-img-container{
+    padding-top: 4rem;
+    height: 10%;
+    padding-right: 1rem;
+}
+.subscribe-text-container{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    height: 130vh;
+    padding-top: 25%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+hr{
+    display: block;
+    border-style: solid;
+    border-width: 4px;
+    color: #e9b1b3;
+}
+.subscribe-heading{
+    text-align: center;
+    font-style: italic;
+    font-size: 400%;
+    padding-top: 0.5rem;
+    font-family: "Goudy Bookletter 1911", sans-serif;;
+}
+.input-div{
+    padding-top: 4rem;
+
+}
+.input-containers{
+    line-height: 2.5;
+    width: 45%;
+    }
+.subscribe-center{
+padding-top: 2rem;
+padding-bottom: 1rem;
+}
+.subscribe-btn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 3rem;
+    line-height: 2.5;
+    width: 20%;
+}
+.icon{
+    padding-top: 2rem;
+}
